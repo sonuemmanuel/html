@@ -1,0 +1,35 @@
+<html>
+    <head></head>
+        <body>
+            <script>
+                function sub()
+                {
+                    var n1=document.getElementById("fname").Value
+                    var n2=document.getElementById("lname").Value
+                    gender=document.querySelector(input[name="gender"]:checked)?.Value;
+                    address=document.getElementById().value;
+                    course=document.getElementById().value;
+                    alert(n1+n2+gender+address+course)
+
+                }    
+                
+            </script>
+             <form>
+            <input type="text" id="fname" name="name1" placeholder="enter first name">
+            <input type="text" id="fname" name="name2" placeholder="enter second name"><br></br>
+            <input type="radio" id="gender" value="Male">Male<br>
+            <input type="radio" id="gender" value="female">female<br></br>
+            <textarea name="text" id="address" placeholder="address"></textarea><br></br>
+            <select  id="course" placeholder="select course">
+            <option selected disabled>select course</option>
+            <option>mern stack</option>
+            <option>python</option>
+            <option>data science</option>
+            </select><br></br>
+            <input type="button" value="submit" onclick="sub()"> 
+
+            </form>
+
+
+        </body>
+    </html>
