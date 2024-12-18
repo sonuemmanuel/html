@@ -44,7 +44,60 @@
         }
         var polyObj=new polygon(10,12);
         polyObj.test();*/
+         
 
+        /*class person{
+          constructor(name){
+            this.name=name;
+          }                                                            
+        }
+        let person1=new person("adhrash")
+        document.write(person1.name);*/
+
+
+        //adding proprtysand methods in to a class
+        /*class person{
+            value=15;
+            getValue(){
+              document.write("getValue:",this.value);
+
+            }
+            printMsg(){
+              document.write("printMsg",this.value);
+              this.getValue();
+            }
+        }
+
+        let person1=new person();
+            document.write(person1.value);
+            person1.getValue();
+            person1.getMsg();*/
+        
+            class person{
+            printMsg1(){
+                this.num=10;
+                document.write("printMsg1:num=",this.num);
+            }
+            printMsg2(){
+                this.num=20;
+                document.write("printMsg2:num=",this.num);
+            }
+            printMsg3(){
+                this.num=30;
+                document.write("printMsg3:num=",this.num);
+                document.write("<br>")
+                document.write("num ",person1.num);
+            }
+        }
+        let person1=new person();
+        person1.printMsg1();
+        document.write("<br>")
+        person1.printMsg2();
+        document.write("<br>")
+        person1.printMsg3();
+        document.write("<br>")
+        num=30
+        
         </script>
     </body>
 </html>
